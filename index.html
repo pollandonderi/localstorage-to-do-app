@@ -4,11 +4,25 @@
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
- 
-    
+    <div class="maincontainer center">
+        <div class="to-do-app">
+            <div class="center">
+                <input type="text" class="input" name="to-do" id="item" placeholder="Enter item to add ...">
+            </div>
+          <div class="buttons center">
+                <button type="submit" onclick="addItem()" class="buttoncustomise"> Add<i class="fa fa-plus icon"></i></button>
+                <button type="submit" onclick="clearItem()" class="buttoncustomise"> Clear <i class="fa fa-minus icon"></i></button>
+            </div>
+            <div class="white">
+                <ul class="to-do-items"></ul>
+            </div>
+        </div>
+        
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

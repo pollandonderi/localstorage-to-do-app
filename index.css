@@ -1,0 +1,51 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.maincontainer{
+    height: 100svh;
+
+}
+.maincontainer{
+    background-color: #0d0628;
+}
+.input{
+    padding: 1em;
+    color: #3772FF;
+    width: max(300px, 90%);
+}
+.input:focus{
+    box-shadow: 0 0 12px 5px  #3772FF;
+}
+.buttons{
+    padding-block: 2em;
+    justify-content: space-around;
+}
+.buttoncustomise{
+    padding:.7em 1em ;
+    border-radius: .5em;
+    background-color: #3772FF;
+    outline: transparent;
+    border: 0;
+}
+.icon{
+    padding-inline: .2em;
+}
+.to-do-app{
+    width: max(500px);
+    display: flex;
+    flex-direction: column;
+}
+.white{
+    color: #ffff;
+    padding-inline: 2em;
+}
