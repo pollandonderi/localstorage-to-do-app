@@ -23,3 +23,15 @@ function addItem(){
     ul.innerHTML = '';
     itemsArray = [];
   }
+
+//   check for local storage using this
+
+//   if (typeof(Storage) !== "undefined") {
+
+    // Code for localStorage
+
+    // } else {
+
+    // No web storage Support.
+    
+// }
